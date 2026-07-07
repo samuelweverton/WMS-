@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+.theme-dark {
+  background-color: #09090b !important;
+  color: #f4f4f5 !important;
+}
+.theme-dark .bg-white {
+  background-color: #18181b !important;
+}
+.theme-dark .bg-slate-50, .theme-dark .bg-zinc-50 {
+  background-color: #09090b !important;
+}
+.theme-dark .text-zinc-900, .theme-dark .text-zinc-800, .theme-dark .text-zinc-950 {
+  color: #f4f4f5 !important;
+}
+.theme-dark .text-zinc-500, .theme-dark .text-zinc-600 {
+  color: #a1a1aa !important;
+}
+.theme-dark .border-zinc-200, .theme-dark .border-zinc-100, .theme-dark .border-zinc-200\/80 {
+  border-color: #27272a !important;
+}
+.theme-dark .shadow-zinc-100, .theme-dark .shadow-zinc-50, .theme-dark .shadow-md {
+  box-shadow: none !important;
+}
+
+html.font-size-large {
+  zoom: 1.15;
+}
+html.font-size-xlarge {
+  zoom: 1.30;
+}
+html.high-contrast {
+  filter: contrast(1.15);
+}

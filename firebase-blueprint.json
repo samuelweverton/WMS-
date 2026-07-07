@@ -1,0 +1,20 @@
+{
+  "entities": {
+    "WmsData": {
+      "title": "WmsData",
+      "description": "General data for WMS",
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array"
+        }
+      }
+    }
+  },
+  "firestore": {
+    "wms_data/{documentId}": {
+      "schema": "#/entities/WmsData",
+      "description": "WMS Data documents"
+    }
+  }
+}

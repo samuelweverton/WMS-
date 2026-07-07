@@ -1,0 +1,6 @@
+{
+  "name": "WMS IA Preditiva",
+  "description": "Sistema de gerenciamento de armazém inteligente com torre de controle de IA preditiva e simulador logístico, integrado a um coletor de mão do operador com leitor de código de barras e controle por voz.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
